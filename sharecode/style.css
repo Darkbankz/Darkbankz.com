@@ -1,0 +1,48 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;margin-top: 80px;
+    width: 200px;
+    height: 330px;
+    background-color:hsl(0, 0%, 100%) ;
+    border: none;
+    border-radius: 12px;
+    
+}
+
+.image{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.text1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 210px;
+    margin-left: -180px;
+    width: 180px;
+    line-height: 18px;
+}
+
+.text2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-top: 250px;
+    margin-left: -180px;
+    width: 170px;
+    line-height: 18px;
+    color: hsl(204, 2%, 60%);
+}
+
+.last{
+    margin-left: 50px;
+}
+
