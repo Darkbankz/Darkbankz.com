@@ -97,7 +97,7 @@ body{
 
 @media only screen and (min-width: 375px) and (max-width: 800px){
     .logout-container{
-        width: 70%;
+        width: 80%;
         height: 450px;
         margin-top: 60px;
     
@@ -116,12 +116,12 @@ body{
     
             label{
                 font-size: 13px;
-                margin-left: 5px;
+                margin-left: 8px;
             }
     
         
             input{
-                width: 280px;
+                width: 270px;
                 padding: 13px ;
                 font-size: 13px;
             
@@ -138,12 +138,12 @@ body{
         }
         
         .Lbtn{
-            padding: 13px 50px;
+            padding: 13px 40px;
             font-size: 14px;
         }
     
         .save{
-            padding: 13px 50px;
+            padding: 13px 40px;
             font-size: 14px;
     
         }
