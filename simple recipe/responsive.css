@@ -1,0 +1,96 @@
+
+@media only screen and (min-width: 375px) and (max-width: 800px){
+    /* Add your mobile-specific styles here */
+
+    img{
+        max-width: 375px;
+        margin-left: -20px;
+        margin-top: -20px;
+        
+     }
+
+     .simple{
+        margin-left: -13px;
+        font-size: 15px;
+     }
+     .paragraph1{
+        font-size: 7px;
+        margin-left: -13px;
+        width: 125px;
+    }
+
+    .Time{
+        margin-left: -13px;
+        width: 120px;
+    }
+
+    .Time li{
+        font-size: 10px;
+        margin-left: -5px;
+    }
+
+    .preptime{
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    .inside{
+        font-size: 7px;
+    }
+
+    .inside2{
+        font-size: 7px;
+    }
+
+    .instructions{
+        font-size: 8px;
+    }
+
+    .instructions2{
+        font-size: 7px;
+        line-height: 10px;
+    }
+
+    ol li{
+        margin-left: -42px;
+        width: 110px;
+        font-size: 8px;
+    }
+
+    .ingred,
+    .instruct,
+    .nutrition{
+        font-size: 10px;
+        margin-left: -13px;
+    }
+
+    .ingredInfo{
+        font-size: 7px;
+        width: 110px;
+    }
+
+   
+
+    .nutri{
+        width: 120px;
+        font-size: 7px;
+    }
+
+    .nutriInfo{
+        font-size: 7px;
+        margin-left: -5px;
+        margin-right: 50px;
+    }
+
+    .thinlines{
+        margin-left: -22px;
+        width: 140px;
+    }
+
+     .flex1{
+        width: 140px;
+        
+     }
+  }
+
+  

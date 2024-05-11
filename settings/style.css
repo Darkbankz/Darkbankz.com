@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(208, 220, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia;
+}
+
+.logout-container{
+    background-color: white;
+    width: 90%;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 80px;
+        cursor: pointer;
+    }
+
+    p{
+        color: rgb(0, 140, 255);
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .username{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        color:rgb(150, 149, 148); 
+
+        label{
+            margin-bottom: 10px;
+            margin-left: 5px;
+        }
+
+        .email{
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+    
+    
+        input{
+            width: 400px;
+            padding: 15px ;
+            border: 1px solid rgb(177, 175, 172);
+            border-radius: 8px;
+            background-color: transparent;
+            font-size: 15px;
+            
+            
+        }
+    
+        ::placeholder{
+            font-weight: bolder;
+            font-size: 14px;
+            color:rgb(150, 149, 148); 
+        }
+
+    }
+
+    .logout-btn{
+        margin-top: 20px;
+    }
+    
+    .Lbtn{
+        border: none;
+        padding: 15px 80px;
+        color: white;
+        background-color: rgb(202, 29, 29);
+        border-radius: 8px;
+        margin-right: 20px;
+        font-family: Arial;
+        font-size: 17px;
+    }
+
+    .save{
+        border: none;
+        padding: 15px 80px;
+        color: white;
+        background-color: rgb(47, 151, 33);
+        border-radius: 8px;
+        font-family: Arial;
+        font-size: 17px;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 800px){
+    .logout-container{
+        width: 70%;
+        height: 450px;
+        margin-top: 60px;
+    
+        img{
+            align-items: center;
+            width: 90px;
+            height: 90px;
+           
+        }
+    
+        p{
+            margin-left: -7px;
+        }
+
+        .username{
+    
+            label{
+                font-size: 13px;
+                margin-left: 5px;
+            }
+    
+        
+            input{
+                width: 280px;
+                padding: 13px ;
+                font-size: 13px;
+            
+            }
+        
+            ::placeholder{
+                font-size: 12px;
+            }
+    
+        }
+    
+        .logout-btn{
+            margin-top: 10px;
+        }
+        
+        .Lbtn{
+            padding: 13px 50px;
+            font-size: 14px;
+        }
+    
+        .save{
+            padding: 13px 50px;
+            font-size: 14px;
+    
+        }
+}
+
+}
+

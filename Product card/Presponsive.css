@@ -1,0 +1,53 @@
+@media only screen and (min-width:375px) and (max-width:800px) {
+    .card{
+        height: 510px;
+        width: 280px;
+        margin-top: 50px;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .image{
+        width: 280px;
+        height: 40%;
+        position: absolute;
+        
+    }
+
+    .imageInfo{
+        margin-top: 225px;
+    }
+
+    .perfume{
+        font-size: 11px; 
+    }
+
+    .gab{
+        font-size: 25px;
+        width: 250px; 
+        line-height: 25px;
+    }
+
+    .composer{
+        font-size: 13px;
+        width: 218px;
+    }
+
+    .price{
+        font-size: 30px;
+        margin-top: -10px;
+    }
+     
+     .oldprice{
+         font-size: 12px;
+     }
+
+    .button{
+        width: 240px;
+        font-size: 14px;
+        padding-top: 13px;
+        padding-bottom: 27px;
+    }
+}
