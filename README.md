@@ -3,4 +3,4 @@
  https://darkbankz.github.io/Darkbankz.com/Product%20card
  https://darkbankz.github.io/Darkbankz.com/settings
  https://darkbankz.github.io/Darkbankz.com/sharecode
- https://darkbankz.github.io/Darkbankz.com/blog
+
