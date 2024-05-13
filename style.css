@@ -6,11 +6,12 @@ body{
     justify-content: center;
     align-items: center;
     font-family: Georgia;
+    height: 1000px;
 }
 
 .main-page{
     width: 600px;
-    height: 600px;
+    height: 650px;
     background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 20px;
@@ -19,6 +20,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    margin-top: 80px;
 
     .log-txt{
         display: flex;
