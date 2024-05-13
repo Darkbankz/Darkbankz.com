@@ -46,3 +46,32 @@ body{
     margin-left: 50px;
 }
 
+@media only screen and (min-width: 375px) and (max-width:800px){
+    .main{
+        
+        width: 190px;
+        height: 300px;
+       
+        
+    }
+    
+    .image{
+        width: 170px;
+        height: 150px;
+    }
+    
+    .text1{
+        margin-top: 170px;
+        margin-left: -175px;
+        
+    }
+    
+    .text2{
+       
+        margin-top: 210px;
+        margin-left: -180px;
+    }
+    
+
+}
+
